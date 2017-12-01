@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="8.3.2">
+<eagle version="8.4.2">
 <drawing>
 <settings>
 <setting alwaysvectorfont="no"/>
@@ -5076,6 +5076,8 @@ Standard schematic elements and footprints for 5mm, 3mm, 1206, and 0603 sized LE
 <classes>
 <class number="0" name="default" width="0" drill="0">
 </class>
+<class number="1" name="I2C" width="0.254" drill="0">
+</class>
 </classes>
 <parts>
 <part name="U$1" library="PowerComponents" deviceset="BRICK_DC-DC_CONVERTER" device=""/>
@@ -5422,7 +5424,7 @@ stay on when disconnect</text>
 <wire x1="177.8" y1="127" x2="177.8" y2="124.46" width="0.1524" layer="91"/>
 </segment>
 </net>
-<net name="+12V" class="0">
+<net name="12V" class="0">
 <segment>
 <wire x1="327.66" y1="162.56" x2="327.66" y2="160.02" width="0.1524" layer="91"/>
 <junction x="327.66" y="162.56"/>
@@ -5476,7 +5478,7 @@ stay on when disconnect</text>
 <junction x="292.1" y="83.82"/>
 <pinref part="U$3" gate="G$1" pin="P$7"/>
 <wire x1="292.1" y1="78.74" x2="304.8" y2="78.74" width="0.1524" layer="91"/>
-<label x="284.48" y="96.52" size="1.778" layer="95"/>
+<label x="287.02" y="96.52" size="1.778" layer="95"/>
 </segment>
 <segment>
 <pinref part="U$3" gate="G$1" pin="P$16"/>
