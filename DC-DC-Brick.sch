@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="8.4.2">
+<eagle version="8.4.1">
 <drawing>
 <settings>
 <setting alwaysvectorfont="no"/>
@@ -5396,13 +5396,6 @@ stay on when disconnect</text>
 <wire x1="96.52" y1="116.84" x2="91.44" y2="116.84" width="0.1524" layer="91"/>
 </segment>
 </net>
-<net name="V-" class="0">
-<segment>
-<pinref part="U$1" gate="G$1" pin="-VIN"/>
-<wire x1="231.14" y1="154.94" x2="226.06" y2="154.94" width="0.1524" layer="91"/>
-<pinref part="P-2" gate="1" pin="V-"/>
-</segment>
-</net>
 <net name="N$12" class="0">
 <segment>
 <pinref part="LED2" gate="G$1" pin="A"/>
@@ -5597,6 +5590,11 @@ stay on when disconnect</text>
 <wire x1="45.72" y1="111.76" x2="45.72" y2="101.6" width="0.1524" layer="91"/>
 <pinref part="P-4" gate="1" pin="V-"/>
 <label x="45.72" y="111.76" size="1.778" layer="95"/>
+</segment>
+<segment>
+<pinref part="U$1" gate="G$1" pin="-VIN"/>
+<wire x1="231.14" y1="154.94" x2="226.06" y2="154.94" width="0.1524" layer="91"/>
+<pinref part="P-2" gate="1" pin="V-"/>
 </segment>
 </net>
 </nets>
